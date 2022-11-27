@@ -29,7 +29,7 @@ class MultiWOZTRADE(TRADE, nn.Module):
         super(MultiWOZTRADE, self).__init__()
 
         if argpath is None:
-            argpath = 'model/TRADE-multiwozdst/HDD400BSZ32DR0.2ACC-0.3591'
+            argpath = 'models/TRADE-multiwozdst/HDD400BSZ32DR0.2ACC-0.4169'
         args['path'] = argpath
 
         self.init_session()
